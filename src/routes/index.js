@@ -7,9 +7,9 @@ function route(app) {
         res.render('news');
     });
 
-                  app.get('/search', (req, res) => {
-                      res.render('search');
-                  });
+    app.get('/search', (req, res) => {
+        res.render('search');
+    });
 }
 
 module.exports = route;
